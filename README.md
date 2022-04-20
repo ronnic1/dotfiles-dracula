@@ -1,3 +1,3 @@
 # dotfiles
 
-configs for mu linux machine
+configs for my linux machine
