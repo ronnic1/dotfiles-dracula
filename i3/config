@@ -225,8 +225,11 @@ workspace 10 output $monitor_right
 
 
 # disable window title
-for_window [class="^.*"] border pixel 0
+for_window [class="^.*"] border pixel 1
 
 # gaps
 gaps inner 7
 gaps outer 6
+
+exec --no-startup-id compton
+
