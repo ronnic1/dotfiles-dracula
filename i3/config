@@ -45,7 +45,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec --no-startup-id kitty
+bindsym $mod+Return exec --no-startup-id alacritty
 
 # kill focused window
 bindsym $mod+q kill
@@ -185,8 +185,8 @@ bar {
 	font pango:JetBrains Mono 8
 	position top
 	tray_output none
-	status_command ~/./bumblebee-status/bumblebee-status -m nic disk:root memory \
-		cpu pasink pasource date time \
+	status_command ~/.config/bumblebee-status/bumblebee-status -m nic disk:root memory \
+		cpu pasink date time \
 		-p root.path=/ time.format="%H:%M" date.format="%a, %b %d %Y" \
 		-t ronnic
         
@@ -228,8 +228,8 @@ workspace 10 output $monitor_right
 for_window [class="^.*"] border pixel 1
 
 # gaps
-gaps inner 7
-gaps outer 6
+gaps inner 6
+gaps outer 3
 
 exec --no-startup-id compton
 
