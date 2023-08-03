@@ -4,6 +4,8 @@ configs for my linux machine
 
 should be drag and drop with a fresh endeavor os install
 
+Start page is https://prettycoffee.github.io/yet-another-generic-startpage/#
+
 Used:  
 i3-gaps  
 Alacritty or Kitty  
