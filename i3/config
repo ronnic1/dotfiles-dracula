@@ -228,8 +228,7 @@ workspace 10 output $monitor_right
 for_window [class="^.*"] border pixel 1
 
 # gaps
-gaps inner 6
+gaps inner 2
 gaps outer 3
 
-exec --no-startup-id compton
-
+exec --no-startup-id picom
